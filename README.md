@@ -1,5 +1,6 @@
 # iris-streamlit-deploy
-a simple data app@streamlit for fast evaluation on ML models for classification - iris dataset
+a simple data app@streamlit for fast evaluation on ML models for classification, nn and Knn - iris dataset
+<img src='img/Print_model_site2.png'></img>
 # installation - after cloning it to a project folder. Inside project folder
 1) create an environment (do not use python 3.13.x, since tensorflow is not yet compatible). Use python 3.12.x
 2) active it
@@ -7,4 +8,4 @@ a simple data app@streamlit for fast evaluation on ML models for classification 
 4) run python iris_nn_tensorflow.py to save a new model
 5) streamlit run app.py
 This code was generated with keras 3.9.2, tensorflow 2.19.1 e python 3.12.8
-<img src='print_screen.png'></img>
+<img src='img/Print_model_site1.png'></img>
