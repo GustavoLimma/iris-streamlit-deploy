@@ -1,0 +1,3 @@
+streamlit run iris-streamlit-deploy/app.py
+
+python iris-streamlit-deploy/iris_nn_tensorflow.py
