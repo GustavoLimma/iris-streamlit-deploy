@@ -28,7 +28,7 @@ X = np.array(db.drop(columns=['Species', 'Species_encoded', 'SepalLengthCm', 'Se
 
 y = np.array(db['Species_encoded']) 
 
-Knn_model = KNeighborsClassifier(n_neighbors=10)
+Knn_model = KNeighborsClassifier(n_neighbors=3)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=30)
 
